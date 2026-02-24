@@ -4,5 +4,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models.cs" />
+    <Compile Include="NmeaParser.cs" />
+    <Compile Include="OffsetCalculator.cs" />
+  </ItemGroup>
 </Project>
