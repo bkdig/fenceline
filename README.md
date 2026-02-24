@@ -51,7 +51,7 @@ Then run the pull commands again.
 
 ## Troubleshooting (Windows)
 
-If build fails with `FactAttribute` not found and mentions `tests/Fenceline.Core.Tests/UnitTest1.cs`, you likely have leftover local files from `dotnet new`.
+If build fails with `FactAttribute` not found and mentions `tests/Fenceline.Core.Tests/UnitTest1.cs`, you likely have leftover local files from `dotnet new`. The projects now explicitly compile only tracked source files, but cleaning leftovers is still recommended for a tidy workspace.
 
 Delete local scaffold leftovers and try again:
 
